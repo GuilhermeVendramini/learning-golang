@@ -5,7 +5,8 @@ Examples using Golang
 Official webpage: 
 https://golang.org/
 
-References: 
+References:
+
 https://github.com/goestoeleven
 
 https://gobyexample.com/
