@@ -2,21 +2,14 @@ package main
 
 import "fmt"
 
-func filter(numbers []int, callback func(int) bool) []int {
-	//xs := []int{}
-	var xs []int
+func visit(numbers []int, callback func(int)) {
 	for _, n := range numbers {
-		if callback(n) {
-			xs = append(xs, n)
-		}
+		callback(n)
 	}
-
-	return xs
 }
 
 func main() {
-	xs := filter([]int{1, 2, 3, 4}, func(n int) bool {
-		return n > 1
+	visit([]int{1, 2, 3, 4}, func(n int) {
+		fmt.Println(n)
 	})
-	fmt.Println(xs) //[2 3 4]
 }
