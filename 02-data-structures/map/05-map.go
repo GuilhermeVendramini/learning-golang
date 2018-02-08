@@ -29,5 +29,8 @@ func main() {
 		fmt.Println("Exists: ", exists)
 	}
 
+	//Add a new item
+	myGreeting[4] = "Bom dia!"
+
 	fmt.Println(myGreeting)
 }
