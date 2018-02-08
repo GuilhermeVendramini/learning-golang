@@ -2,6 +2,10 @@
 
 Examples using Golang
 
-Official webpage: https://golang.org/
+Official webpage: 
+https://golang.org/
 
-Reference: https://github.com/goestoeleven
+References: 
+https://github.com/goestoeleven
+
+https://gobyexample.com/
