@@ -18,9 +18,11 @@ func main() {
 
 	fmt.Println(studyGroup)
 	sort.StringSlice(studyGroup).Sort()
+
 	/*
-		Another way to use:
+		Other ways to use:
 		sort.Sort(sort.StringSlice(studyGroup))
+		sort.Strings(studyGroup)
 	*/
 	fmt.Println(studyGroup)
 }
