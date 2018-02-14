@@ -10,3 +10,5 @@ References:
 https://github.com/goestoeleven
 
 https://gobyexample.com/
+
+https://github.com/golang/go/wiki/Learn
