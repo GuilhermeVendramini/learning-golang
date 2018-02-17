@@ -5,6 +5,10 @@ Examples using Golang
 Official webpage: 
 https://golang.org/
 
+# Golint
+
+https://github.com/golang/lint
+
 References:
 
 https://github.com/goestoeleven
