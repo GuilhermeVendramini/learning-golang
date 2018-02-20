@@ -1,10 +1,3 @@
-/*
-	Atomic
-	Using Atomic we won't have problems with the counter
-	but we can have different sequence
-	https://golang.org/pkg/sync/atomic/
-*/
-
 package main
 
 import (
